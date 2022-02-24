@@ -1,12 +1,8 @@
 import math
 
-#p = 5
-#q = 13
-#m = 2
-
-p = int(input("\nEnter the value of p.\n"))
-q = int(input("\nEnter the value of q.\n"))
-m = int(input("\nEnter the numerical message to be sent.\n"))
+p = 97
+q = 23
+m = 492
 
 n = p*q
 phi = (p-1)*(q-1)
@@ -31,11 +27,3 @@ print("Message after encryption : {}".format(enc))
 
 dec = (enc**e)%n
 print("Message after decryption : {}".format(dec))
-
-if m == dec :
-    print("success")
-else:
-    print("not success")
-
-
-        
